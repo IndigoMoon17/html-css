@@ -1,0 +1,36 @@
+body {
+background-color: rgb(31, 30, 30);
+}
+
+.thumbnails {
+display: flex;
+justify-content: center;
+}
+
+.thumbnails_cont {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+text-align: center;
+color: azure;
+}
+
+.videos {
+    display:flex;
+    justify-content: center;
+}
+
+.voltar {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-align: center;
+    display: block;
+    color: azure;
+    text-decoration: none;
+
+}
