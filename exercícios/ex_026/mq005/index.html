@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu>
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testing Media Queries</h2>
+            <p>Feline Philosophy: Cats and the Meaning of Life is a 2020 nonfiction book by the English political philosopher John Gray. The book uses the concept of the detached and carefree temperament of the typical house cat as a springboard for discussing humans' approach to philosophy and the meaning of life.</p>
+
+            <p>Feline Philosophy consists of six chapters across 128 pages. In the first chapter, Gray presents the book's goal which is to impart what humankind can learn from the feline approach to the world. While cats live in tune with the world and their surroundings, humanity suffers from a disconnect between the self and nature, prompting it to look to philosophy and religion for answers. In the book's second chapter, "Why Cats Do Not Struggle to Be Happy", Gray goes on to argue that philosophy's reason for existence stems from the human tendency to experience anxiety. Whereas cats only feel anxious when in threatened or in an unknown place, humans live with the awareness that the entire world they inhabit is a threatening and unknown place. Deliberate attempts to pursue happiness often exacerbate the issue.</p>
+
+            <p>"Feline Ethics", the book's third chapter, sees Gray using the teachings of Taoism and the 17th-century philosopher Spinoza to argue that morality, both on a cultural as well as an individual level, is relative. Our goal as people should not be to pursue a nonexistent moral ideal, but rather attempt to achieve one's ideal self. The fourth chapter, "Human vs. Feline Love", uses examples of cats from literature to illustrate the difference between cats' and humans' capabilities for loving one another. While cats possess the ability to love purely, humans "are ruled by self-deception" more in our relationships than in any other aspect of our lives. "Time, Death, and the Feline Soul", the book's next chapter, uses cats from the historical record as a way of illustrating cats' appreciation of life as it is as opposed to humanity's agonizing over aging and death.</p>
+
+            <p>In the book's sixth and final chapter, Gray describes the ultimate meaninglessness of the search for life's meaning. People would be better served, he says, by following "the way within us" to find enrichment in our lives. Gray concludes with "Ten Feline Hints on How to Live Well", in which he summarizes the book's central thesis: "Forget about pursuing happiness, and you may find it."</p>
+        </article>
+    </main>
+    <script>
+        var itens = document.getElementById("itens");
+
+        function clicMenu() {
+            var itens = document.getElementById("itens");
+            if (itens.style.display == 'block') {
+                itens.style.display = "none";
+            } else {
+                itens.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
